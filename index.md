@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Makefile Tutorial by Example
+title: Makefileチュートリアル
 ---
 
 **Intro**  
-This makefile will always run. The default target is `some_binary`, because it is first.
+このmakefileは常に実行する。デフォルトターゲットは`some_binary`。なぜなら、最初のターゲットだから。
 {% highlight make %}
 some_binary:
 	echo "nothing"
